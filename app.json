@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "ICE Lite",
+    "slug": "ice-lite",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "icelight",
+    "splash": {
+      "backgroundColor": "#070b14"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.frostedblocks.icelight",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": false
+        }
+      }
+    },
+    "android": {
+      "package": "com.frostedblocks.icelight",
+      "adaptiveIcon": {
+        "backgroundColor": "#070b14"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
