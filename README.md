@@ -1,8 +1,8 @@
 # ICE Lite phone app
 
-Expo WebView app pointed at https://lite.frostedblocks.com
+Expo WebView wrapper for https://lite.frostedblocks.com
 
-Same login, feed, Circles, and messages as the site.
+Same login, feed, Circles, and messages as the site. No wallet on this app.
 
 ## Run on your phone
 
@@ -17,13 +17,13 @@ npm install
 npx expo start
 ```
 
-4. Scan the QR code with Expo Go (Android) or the Camera app (iPhone).
+4. Scan the QR with Expo Go (Android) or Camera (iPhone).
 
-## Build a real installable app later
+## Installable build (later)
 
 ```bash
 npm install -g eas-cli
 eas login
-eas build --platform android
-eas build --platform ios
+eas build --platform android --profile preview
+eas build --platform ios --profile preview
 ```

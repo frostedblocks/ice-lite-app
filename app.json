@@ -7,7 +7,8 @@
     "userInterfaceStyle": "dark",
     "scheme": "icelight",
     "splash": {
-      "backgroundColor": "#070b14"
+      "backgroundColor": "#070b14",
+      "resizeMode": "contain"
     },
     "ios": {
       "supportsTablet": true,
